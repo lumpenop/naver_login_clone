@@ -375,9 +375,7 @@ ul {
     background-size: 1px 10px;
 }
 
-.copy {
-    display: none;
-}
+
 
 #footer address .bar, 
 #footer address .u_cra, 
@@ -389,6 +387,42 @@ ul {
     color: #7e7e7e;
 }
 
+#footer address span {
+    font: 9px/14px Verdana;
+    padding-left: 2px;
+}
+
 #footer li, #footer strong {
     color: #7e7e7e;
+}
+
+#footer address .logo {
+    position: relative;
+    display: inline-block;
+    width: 63px;
+    height: 12px;
+    background: url(
+        https://static.nid.naver.com/images/ui/login/pc_sp_login_190522.png) no-repeat;
+    background-position: -242px 0;    
+    background-size: 460px auto;
+}
+
+#footer address a {
+    font: bold 9px Verdana;
+    color: #333;
+}
+
+#footer address .u_cri {
+    display: none;
+    margin: 0;
+    padding-left: 1px;
+    font-size: 12px;   
+}
+
+#footer address em {
+    font: 9px Verdana;
+}
+
+#footer a {
+    text-decoration: none;
 }
